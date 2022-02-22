@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 import './Skills.scss';
 
-const Skills = () => {
+function Skills() {
   return (
     <div>Skills</div>
-  )
+  );
 }
 
-export default Skills
+export default Skills;
