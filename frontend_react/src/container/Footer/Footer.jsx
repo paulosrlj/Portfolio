@@ -37,7 +37,7 @@ function Footer() {
 
   return (
     <>
-      <h2 className="head-text">Que tal se sentar e tomar um café comigo?</h2>
+      <h2 className="head-text">Gostaria de entrar em contato comigo?</h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">

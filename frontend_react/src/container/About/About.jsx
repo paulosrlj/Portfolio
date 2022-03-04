@@ -20,22 +20,17 @@ function About() {
   return (
     <>
       <h2 className="head-text">
-        I know that
+        Os meus
         {' '}
-        <span>Good Development</span>
-        {' '}
-        <br />
-        {' '}
-        means
-        {' '}
-        <span>Good business</span>
+        <span>serviços</span>
+
       </h2>
 
       <div className="app__profiles">
         {abouts.map((aboutItem, index) => (
           <motion.div
             whileInView={{ opacity: [0, 1], x: [-100, 0] }}
-            whileHover={{ scale: 1.1, cursor: 'pointer' }}
+            whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.5, type: 'tween' }}
             className="app__profile-item"
             key={aboutItem.title + index}
