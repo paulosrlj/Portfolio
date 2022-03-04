@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {
-  About, Footer, Header, Skills, Testimonial, Work,
+  About, Footer, Header, Skills, Work,
 } from './container';
 import { Navbar } from './components';
 import './App.scss';
@@ -14,7 +14,6 @@ function App() {
       <About />
       <Work />
       <Skills />
-      <Testimonial />
       <Footer />
     </div>
   );

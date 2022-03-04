@@ -41,10 +41,11 @@ function Work() {
   return (
     <>
       <h2 className="head-text">
-        My Creative
+        Sessão do meu
+        {' '}
         <span>Portfolio</span>
         {' '}
-        Section
+        criativo
       </h2>
 
       <div className="app__work-filter">
@@ -117,6 +118,6 @@ function Work() {
 
 export default AppWrap(
   MotionWrap(Work, 'app__works'),
-  'work',
+  'projetos',
   'app__primarybg',
 );
