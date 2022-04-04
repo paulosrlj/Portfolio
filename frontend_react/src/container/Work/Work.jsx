@@ -41,11 +41,10 @@ function Work() {
   return (
     <>
       <h2 className="head-text">
-        Sessão do meu
+        Meus
         {' '}
-        <span>Portfolio</span>
-        {' '}
-        criativo
+        <span>projetos</span>
+
       </h2>
 
       <div className="app__work-filter">
