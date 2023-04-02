@@ -1,0 +1,23 @@
+import React from 'react';
+import { BsGithub, BsInstagram } from 'react-icons/bs';
+import { FaFacebookF } from 'react-icons/fa';
+
+function SocialMedia() {
+  return (
+    <div className="app__social">
+      <div>
+        <BsGithub />
+      </div>
+
+      <div>
+        <FaFacebookF />
+      </div>
+
+      <div>
+        <BsInstagram />
+      </div>
+    </div>
+  );
+}
+
+export default SocialMedia;
